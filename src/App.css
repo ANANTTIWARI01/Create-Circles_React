@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.disabled{
+  pointer-events: none;
+  opacity: 0.5;
+}
+.buttons{
+  width: 180px;
+}
+.buttons button{
+  margin: 0.5rem 0.25rem;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+.screen{
+  height: 100vh;
+  position: relative;
+}
+.singleCircle{
+  border-radius: 50%;
+  width: 15px;
+      height: 15px;
+      position:absolute;
+}
